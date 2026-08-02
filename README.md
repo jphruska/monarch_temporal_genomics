@@ -23,3 +23,5 @@ Documenting genetic changes over 123 year period.
 1) Genotyping and filtering of high coverage temporal dataset (n=55, depth of coverage > 6x) with bcftools mpileup, view, +fill-tags, +setGT, per individual. Removal of transition variants with awk one liner. 
 2) Merging of per-individual VCFs into one with bcftools merge -m id.
 3) Genotyping high coverage 2023-2024 individuals (n=36, depth of coverage > 6x) for GONE (recent Ne analyses) in a similar fashion, with the exception being that transition variants are now retained. 
+
+#### genotype_likelihoods
