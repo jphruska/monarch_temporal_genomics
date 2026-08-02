@@ -26,6 +26,9 @@ Documenting genetic changes over 123 year period.
 
 #### genotype_likelihoods
 
+#### effective_population_size
+1) Combine per-chromosome VCFs into one VCF with bcftools concat. 
+
 
 #### figures
 1) R scripts to make Figures 1-5 and Supplemental Figures. 
