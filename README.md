@@ -14,7 +14,7 @@ Documenting genetic changes over 123 year period.
 
 #### read_alignment
 1) Alignment of merged and unmerged reads with bwa aln.
-2) 
+2) Clip overlaps of unmerged reads with bamUtil clipOverlap. 
 3) Indel realignment with GATK.
 4) Alignment downsampling with samtools view.
 5) Alignment stats with samtools flagstat and samtools depth. 
