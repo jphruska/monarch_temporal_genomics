@@ -18,3 +18,7 @@ Documenting genetic changes over 123 year period.
 3) Indel realignment with GATK.
 4) Alignment downsampling with samtools view.
 5) Alignment stats with samtools flagstat and samtools depth. 
+
+#### genotyping
+1) Genotyping and filtering of high coverage temporal dataset (n=55, depth of coverage > 6x) with bcftools mpileup, view, +fill-tags, +setGT, per individual. Removal of transition variants with awk one liner. 
+2) Merging of per-individual VCFs into one with bcftools merge -m id. 
