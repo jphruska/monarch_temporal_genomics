@@ -25,3 +25,7 @@ Documenting genetic changes over 123 year period.
 3) Genotyping high coverage 2023-2024 individuals (n=36, depth of coverage > 6x) for GONE (recent Ne analyses) in a similar fashion, with the exception being that transition variants are now retained. 
 
 #### genotype_likelihoods
+
+
+#### figures
+1) R scripts to make Figures 1-5 and Supplemental Figures. 
