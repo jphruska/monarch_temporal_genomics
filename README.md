@@ -1,8 +1,8 @@
 # Temporal Genomics of the Monarch Butterfly (Danaus plexippus)
 Documenting genetic changes over 123 year period. 
 
-Directory Information:
-# prep reference
+Descriptions of folder contents:
+# prep_reference
 1) Create indices of reference genome (GCF_018135715.1_MEX_DaPlex_genomic.fna) with samtools faidx and bwa index.
 2) Create dictionary for GATK with CreateSequenceDictionary.
 
@@ -11,7 +11,7 @@ Directory Information:
 2) Read merging with SeqPrep2.
 3) Removing low complexity reads with nf-polish.
 
-# read alignment
+# read_alignment
 1) Alignment of merged and unmerged reads with bwa aln.
 2) 
 3) Indel realignment with GATK.
