@@ -8,8 +8,8 @@ Documenting genetic changes over 123 year period.
 2) Create dictionary for GATK with CreateSequenceDictionary.
 
 #### read_processing
-1) Scripts involved in read trimming, adapter removal, poly-G tail removal with BBMap.
-2) Read merging with SeqPrep2.
+1) Scripts involved in read trimming, poly-G tail removal with BBMap.
+2) Read merging and adapter removal with SeqPrep2.
 3) Removing low complexity reads with nf-polish.
 
 #### read_alignment
