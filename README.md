@@ -33,6 +33,9 @@ Documenting genetic changes over 123 year period.
 #### genetic differentiation
 1) Pairwise time period FST calculation with winsfs view, realSFS fst index + stats.
 
+#### population_structure
+1) PCA with pcAngsd, admixture plot with ngsAdmix, and co-ancestry analyses with finestructure. PCA and admixture analyses use thinned dataset (> 100 bp distance) and co-ancestry uses an unthinned dataset. 
+
 #### genetic_diversity_pi
 1) Nucleotide diversity of 9 randomly sampled individuals per period, calculated with realSFS saf2theta and thetaStat do_stat.
 
