@@ -30,6 +30,9 @@ Documenting genetic changes over 123 year period.
 #### effective_population_size
 1) Combine per-chromosome VCFs into one VCF with bcftools concat. 
 
+#### genetic differentiation
+1) Pairwise time period FST calculation with winsfs view, realSFS fst index + stats. 
+
 
 #### figures
 1) R scripts to make Figures 1-5 and Supplemental Figures. 
