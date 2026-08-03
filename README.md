@@ -51,4 +51,4 @@ Documenting genetic changes over 123 year period.
 1) Identify ROH in individuals with bcftools roh. 
 
 #### figures
-1) R scripts to make Figures 1-5 and Supplemental Figures. 
+1) R scripts to make Figures 1-6 and Supplemental Figures. 
