@@ -32,8 +32,8 @@ Documenting genetic changes over 123 year period.
 
 #### heterozygosity
 1) Per individual heterozygosity of > 6x coverage and > 2x coverage datasets.
-2) > 6x coverage heterozygosity calculated with custom R script (calc_heterozygosity_final.R).
-3) > 2x coverage heterozygosity calculated with angsd (to create SAF file), winsfs view, and awk commands. 
+2) Greater than 6x coverage heterozygosity calculated with custom R script (calc_heterozygosity_final.R).
+3) Greater than 2x coverage heterozygosity calculated with angsd (to create SAF file), winsfs view, and awk commands. 
 
 #### genetic differentiation
 1) Pairwise time period FST calculation with winsfs view, realSFS fst index + stats.
