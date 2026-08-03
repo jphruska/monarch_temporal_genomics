@@ -25,6 +25,7 @@ Documenting genetic changes over 123 year period.
 3) Genotyping high coverage 2023-2024 individuals (n=36, depth of coverage > 6x) for GONE (recent Ne analyses) in a similar fashion, with the exception being that transition variants are now retained. 
 
 #### genotype_likelihoods
+1) Cacluate genotype likelihoods with ANGSD for per-individual heterozygosity, nucleotide diversity, and population structure. 
 
 #### effective_population_size
 1) Combine per-chromosome VCFs into one VCF with bcftools concat. 
