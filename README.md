@@ -31,8 +31,16 @@ Documenting genetic changes over 123 year period.
 1) Combine per-chromosome VCFs into one VCF with bcftools concat. 
 
 #### genetic differentiation
-1) Pairwise time period FST calculation with winsfs view, realSFS fst index + stats. 
+1) Pairwise time period FST calculation with winsfs view, realSFS fst index + stats.
 
+#### genetic_diversity_pi
+1) Nucleotide diversity of 9 randomly sampled individuals per period, calculated with realSFS saf2theta and thetaStat do_stat.
+
+#### genetic_load
+1) Calculated genetic load with snpEff. 
+
+#### roh
+1) Identify ROH in individuals with bcftools roh. 
 
 #### figures
 1) R scripts to make Figures 1-5 and Supplemental Figures. 
