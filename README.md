@@ -28,7 +28,12 @@ Documenting genetic changes over 123 year period.
 1) Cacluate genotype likelihoods with ANGSD for per-individual heterozygosity, nucleotide diversity, genetic differentiation, and population structure. 
 
 #### effective_population_size
-1) Combine per-chromosome VCFs into one VCF with bcftools concat. 
+1) Combine per-chromosome VCFs into one VCF with bcftools concat.
+
+#### heterozygosity
+1) Per individual heterozygosity of > 6x coverage and > 2x coverage datasets.
+2) > 6x coverage heterozygosity calculated with custom R script (calc_heterozygosity_final.R).
+3) > 2x coverage heterozygosity calculated with angsd (to create SAF file), winsfs view, and awk commands. 
 
 #### genetic differentiation
 1) Pairwise time period FST calculation with winsfs view, realSFS fst index + stats.
